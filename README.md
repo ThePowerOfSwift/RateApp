@@ -26,7 +26,7 @@ class ViewController: UIViewController {
     }
 }
 ```
-If you want to configure time ranges for requesting permissions, you can use project mechanisms
+If you want to configure time ranges for requesting reviews, you can use project mechanisms
 ```swift
 if SPRateApp.isShowDialog() {
     SPRateApp.dialog.bannerWithIndicator.present(on: self, applicationID: "1241292508")
@@ -63,7 +63,7 @@ SPRateApp.dialog.bannerWithIndicator.present(
 ```
 
 ## Apps, using SPRateApp
-I like the idea to specify applications that use the RequestPermission. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
+I like the idea to specify applications that use the SPRateApp. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
 
 ## License
 SPRateApp is released under the MIT license. Check LICENSE.md for details
