@@ -1,9 +1,9 @@
-<img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/request-permission_baner.svg"/>
+<img src="https://cdn.rawgit.com/IvanVorobei/RateApp/fe2293bd/resources/rate-app%20-%20baner%20-%20outline.svg"/>
 
 ## About
 This project simplifies the work on the feedback requests. A beautiful dialog box increases the conversion.
 
-<img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/request-permission%20-%20mockup_preview.gif" width="600">
+<img src="https://cdn.rawgit.com/IvanVorobei/RateApp/fe2293bd/resources/rate-app%20-%20mockup_preview.gif" width="600">
 
 ## Requirements
 Xcode 8 and Swift 3. Ready for use on iOS 8+
