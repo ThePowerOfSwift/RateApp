@@ -34,11 +34,6 @@ class ViewController: UIViewController {
 
     @IBAction func tapPresentAction(_ sender: Any) {
         SPRateApp.dialog.bannerWithIndicator.present(on: self, applicationID: "1241292508")
-        SPRateApp.dialog.bannerWithIndicator.present(
-            on: self,
-            applicationID: "1241292508",
-            dataSource: DataSource()
-        )
     }
     
     //Mark: - Other
