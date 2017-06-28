@@ -62,11 +62,11 @@ SPRateApp.dialog.bannerWithIndicator.present(
 )
 ```
 
-## Apps, using SPRateApp
-I like the idea to specify applications that use the SPRateApp. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
+## Apps, using RateApp
+I like the idea to specify applications that use the RateApp. Please, contact me via email (you can find it in the section "Contacts") so that I added app here
 
 ## License
-SPRateApp is released under the MIT license. Check LICENSE.md for details
+RateApp is released under the MIT license. Check LICENSE.md for details
 
 ## Other
 <img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/powered_by_sparrow.svg"/>
