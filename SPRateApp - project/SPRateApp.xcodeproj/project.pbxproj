@@ -1,0 +1,1247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F400333D1EF1A20600E40562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400333C1EF1A20600E40562 /* AppDelegate.swift */; };
+		F400333F1EF1A20600E40562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400333E1EF1A20600E40562 /* ViewController.swift */; };
+		F40033441EF1A20600E40562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F40033431EF1A20600E40562 /* Assets.xcassets */; };
+		F40033DC1EF1A28700E40562 /* SPAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033501EF1A28700E40562 /* SPAnimation.swift */; };
+		F40033DD1EF1A28700E40562 /* SPAnimationAlpha.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033511EF1A28700E40562 /* SPAnimationAlpha.swift */; };
+		F40033DE1EF1A28700E40562 /* SPAnimationSpring.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033521EF1A28700E40562 /* SPAnimationSpring.swift */; };
+		F40033DF1EF1A28700E40562 /* SPAnimationUpward.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033531EF1A28700E40562 /* SPAnimationUpward.swift */; };
+		F40033E01EF1A28700E40562 /* SPAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033551EF1A28700E40562 /* SPAudioPlayer.swift */; };
+		F40033E11EF1A28700E40562 /* NSLayoutConstraintExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033571EF1A28700E40562 /* NSLayoutConstraintExtenshion.swift */; };
+		F40033E21EF1A28700E40562 /* SPConstraintsAssistent.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033581EF1A28700E40562 /* SPConstraintsAssistent.swift */; };
+		F40033E31EF1A28700E40562 /* SPDelay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400335A1EF1A28700E40562 /* SPDelay.swift */; };
+		F40033E41EF1A28700E40562 /* SPDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400335C1EF1A28700E40562 /* SPDevice.swift */; };
+		F40033E51EF1A28700E40562 /* SPDeviceOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400335D1EF1A28700E40562 /* SPDeviceOrientation.swift */; };
+		F40033E61EF1A28700E40562 /* SPUIDeviceExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400335E1EF1A28700E40562 /* SPUIDeviceExtenshion.swift */; };
+		F40033E71EF1A28700E40562 /* SPArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033601EF1A28700E40562 /* SPArrayExtension.swift */; };
+		F40033E81EF1A28700E40562 /* SPBezierPathExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033611EF1A28700E40562 /* SPBezierPathExtension.swift */; };
+		F40033E91EF1A28700E40562 /* SPCGRectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033621EF1A28700E40562 /* SPCGRectExtension.swift */; };
+		F40033EA1EF1A28800E40562 /* SPCGSizeExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033631EF1A28700E40562 /* SPCGSizeExtenshion.swift */; };
+		F40033EB1EF1A28800E40562 /* SPStrideableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033641EF1A28700E40562 /* SPStrideableExtension.swift */; };
+		F40033EC1EF1A28800E40562 /* SPUIButtonExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033651EF1A28700E40562 /* SPUIButtonExtenshion.swift */; };
+		F40033ED1EF1A28800E40562 /* SPUIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033661EF1A28700E40562 /* SPUIColorExtension.swift */; };
+		F40033EE1EF1A28800E40562 /* SPUIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033671EF1A28700E40562 /* SPUIImageExtension.swift */; };
+		F40033EF1EF1A28800E40562 /* SPUIScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033681EF1A28700E40562 /* SPUIScreenExtension.swift */; };
+		F40033F01EF1A28800E40562 /* SPUIViewControllerExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033691EF1A28700E40562 /* SPUIViewControllerExtenshion.swift */; };
+		F40033F11EF1A28800E40562 /* SPUIFontExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400336B1EF1A28700E40562 /* SPUIFontExtenshion.swift */; };
+		F40033F21EF1A28800E40562 /* SPInternetConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400336E1EF1A28700E40562 /* SPInternetConnection.swift */; };
+		F40033F31EF1A28800E40562 /* SPLaunchAnimationTwitterExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033721EF1A28700E40562 /* SPLaunchAnimationTwitterExtenshion.swift */; };
+		F40033F41EF1A28800E40562 /* SPLaunchAnimationSlideExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033741EF1A28700E40562 /* SPLaunchAnimationSlideExtenshion.swift */; };
+		F40033F51EF1A28800E40562 /* SPLaunchAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033751EF1A28700E40562 /* SPLaunchAnimation.swift */; };
+		F40033F61EF1A28800E40562 /* SPLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033771EF1A28700E40562 /* SPLayout.swift */; };
+		F40033F71EF1A28800E40562 /* SPRequestPermissionDataColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400337B1EF1A28700E40562 /* SPRequestPermissionDataColors.swift */; };
+		F40033F81EF1A28800E40562 /* SPRequestPermissionDataFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400337C1EF1A28700E40562 /* SPRequestPermissionDataFonts.swift */; };
+		F40033F91EF1A28800E40562 /* SPRequestPermissionDataTexts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400337D1EF1A28700E40562 /* SPRequestPermissionDataTexts.swift */; };
+		F40033FA1EF1A28800E40562 /* SPRequestPermissionDataViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400337E1EF1A28700E40562 /* SPRequestPermissionDataViews.swift */; };
+		F40033FB1EF1A28800E40562 /* SPRequestPermissionLocationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033821EF1A28700E40562 /* SPRequestPermissionLocationHandler.swift */; };
+		F40033FC1EF1A28800E40562 /* SPPermissions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033831EF1A28700E40562 /* SPPermissions.swift */; };
+		F40033FD1EF1A28800E40562 /* SPPermissionsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033841EF1A28700E40562 /* SPPermissionsManager.swift */; };
+		F40033FE1EF1A28800E40562 /* SPRequestPermissionDialogInteractiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033891EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewController.swift */; };
+		F40033FF1EF1A28800E40562 /* SPRequestPermissionDialogInteractiveDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400338B1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSource.swift */; };
+		F40034001EF1A28800E40562 /* SPRequestPermissionDialogInteractivePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400338D1EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenter.swift */; };
+		F40034011EF1A28800E40562 /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400338F1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */; };
+		F40034021EF1A28800E40562 /* SPRequestPermissionDialogInteractivePresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033901EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenterInterface.swift */; };
+		F40034031EF1A28800E40562 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033911EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */; };
+		F40034041EF1A28800E40562 /* SPRequestPermissionDialogInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033931EF1A28700E40562 /* SPRequestPermissionDialogInteractiveView.swift */; };
+		F40034051EF1A28800E40562 /* SPRequestPermissionNativePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033951EF1A28700E40562 /* SPRequestPermissionNativePresenter.swift */; };
+		F40034061EF1A28800E40562 /* SPRequestPermissionTwiceControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033981EF1A28700E40562 /* SPRequestPermissionTwiceControl.swift */; };
+		F40034071EF1A28800E40562 /* SPRequestPermissionTwiceControlBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033991EF1A28700E40562 /* SPRequestPermissionTwiceControlBase.swift */; };
+		F40034081EF1A28800E40562 /* SPRequestPermissionEventsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400339B1EF1A28700E40562 /* SPRequestPermissionEventsDelegate.swift */; };
+		F40034091EF1A28800E40562 /* plist_flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400339D1EF1A28700E40562 /* plist_flags.swift */; };
+		F400340A1EF1A28800E40562 /* SPRequestPermission.swift in Sources */ = {isa = PBXBuildFile; fileRef = F400339E1EF1A28700E40562 /* SPRequestPermission.swift */; };
+		F400340B1EF1A28800E40562 /* SPRandom.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A01EF1A28700E40562 /* SPRandom.swift */; };
+		F400340C1EF1A28800E40562 /* SPTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A21EF1A28700E40562 /* SPTypes.swift */; };
+		F400340D1EF1A28800E40562 /* SPDialogSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A51EF1A28700E40562 /* SPDialogSwipeController.swift */; };
+		F400340E1EF1A28800E40562 /* SPExtenshionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A61EF1A28700E40562 /* SPExtenshionViewController.swift */; };
+		F400340F1EF1A28800E40562 /* SPGradientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A71EF1A28700E40562 /* SPGradientViewController.swift */; };
+		F40034101EF1A28800E40562 /* SPPageItemsScallingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A81EF1A28700E40562 /* SPPageItemsScallingViewController.swift */; };
+		F40034111EF1A28800E40562 /* SPParalaxTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033A91EF1A28700E40562 /* SPParalaxTableViewController.swift */; };
+		F40034121EF1A28800E40562 /* SPStatusBarManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033AA1EF1A28700E40562 /* SPStatusBarManagerViewController.swift */; };
+		F40034131EF1A28800E40562 /* SPIconsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033AD1EF1A28700E40562 /* SPIconsButton.swift */; };
+		F40034141EF1A28800E40562 /* SPLinesCircleButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033AE1EF1A28700E40562 /* SPLinesCircleButtonsView.swift */; };
+		F40034151EF1A28800E40562 /* SPRoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033AF1EF1A28700E40562 /* SPRoundButton.swift */; };
+		F40034161EF1A28800E40562 /* SPSegmentControllCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033B21EF1A28700E40562 /* SPSegmentControllCell.swift */; };
+		F40034171EF1A28800E40562 /* SPSegmentControlProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033B31EF1A28700E40562 /* SPSegmentControlProtocol.swift */; };
+		F40034181EF1A28800E40562 /* SPSegmentControlStyleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033B41EF1A28700E40562 /* SPSegmentControlStyleProtocol.swift */; };
+		F40034191EF1A28800E40562 /* SPSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033B51EF1A28700E40562 /* SPSegmentedControl.swift */; };
+		F400341A1EF1A28800E40562 /* SPCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033B91EF1A28700E40562 /* SPCollectionViewCell.swift */; };
+		F400341B1EF1A28800E40562 /* SPCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033BB1EF1A28700E40562 /* SPCollectionView.swift */; };
+		F400341C1EF1A28800E40562 /* SPPageItemsScalingCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033BC1EF1A28700E40562 /* SPPageItemsScalingCollectionView.swift */; };
+		F400341D1EF1A28800E40562 /* SPCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033BE1EF1A28700E40562 /* SPCollectionViewLayout.swift */; };
+		F400341E1EF1A28800E40562 /* SPPageItemsScalingCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033BF1EF1A28700E40562 /* SPPageItemsScalingCollectionLayout.swift */; };
+		F400341F1EF1A28800E40562 /* SPRhombusPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C11EF1A28700E40562 /* SPRhombusPatternView.swift */; };
+		F40034201EF1A28800E40562 /* SPParallaxTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C41EF1A28700E40562 /* SPParallaxTableViewCell.swift */; };
+		F40034211EF1A28800E40562 /* SPAligmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C61EF1A28700E40562 /* SPAligmentView.swift */; };
+		F40034221EF1A28800E40562 /* SPBannerWithTitlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C71EF1A28700E40562 /* SPBannerWithTitlesView.swift */; };
+		F40034231EF1A28800E40562 /* SPBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C81EF1A28700E40562 /* SPBlurView.swift */; };
+		F40034241EF1A28800E40562 /* SPGradeWithBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033C91EF1A28700E40562 /* SPGradeWithBlurView.swift */; };
+		F40034251EF1A28800E40562 /* SPGradientGradeWithBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CA1EF1A28700E40562 /* SPGradientGradeWithBlurView.swift */; };
+		F40034261EF1A28800E40562 /* SPGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CB1EF1A28700E40562 /* SPGradientView.swift */; };
+		F40034271EF1A28800E40562 /* SPPatternView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CC1EF1A28700E40562 /* SPPatternView.swift */; };
+		F40034281EF1A28800E40562 /* SPShadowWithMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CD1EF1A28700E40562 /* SPShadowWithMaskView.swift */; };
+		F40034291EF1A28800E40562 /* SPTitleWithSubtitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CE1EF1A28700E40562 /* SPTitleWithSubtitleView.swift */; };
+		F400342A1EF1A28800E40562 /* SPUILabelExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033CF1EF1A28700E40562 /* SPUILabelExtenshion.swift */; };
+		F400342B1EF1A28800E40562 /* SPUIViewExtenshion.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033D01EF1A28700E40562 /* SPUIViewExtenshion.swift */; };
+		F400342C1EF1A28800E40562 /* SPBezierPathFigureIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033D41EF1A28700E40562 /* SPBezierPathFigureIcons.swift */; };
+		F400342D1EF1A28800E40562 /* SPBezierPathFigureLogos.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033D61EF1A28700E40562 /* SPBezierPathFigureLogos.swift */; };
+		F400342E1EF1A28800E40562 /* SPBezierPathFigurePatterns.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033D81EF1A28700E40562 /* SPBezierPathFigurePatterns.swift */; };
+		F400342F1EF1A28800E40562 /* SPBezierPathFigure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033D91EF1A28700E40562 /* SPBezierPathFigure.swift */; };
+		F40034301EF1A28800E40562 /* SPSpotlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40033DB1EF1A28700E40562 /* SPSpotlight.swift */; };
+		F40034321EF1A2A200E40562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40034311EF1A2A200E40562 /* Main.storyboard */; };
+		F40034341EF1A35D00E40562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F40034331EF1A35D00E40562 /* LaunchScreen.storyboard */; };
+		F40034381EF1A3F500E40562 /* SPShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40034371EF1A3F500E40562 /* SPShadow.swift */; };
+		F400343A1EF1A47600E40562 /* SPShadowDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40034391EF1A47600E40562 /* SPShadowDeep.swift */; };
+		F4726F5C1F010DFB00C12110 /* SPBezierPathFigureDraw.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4726F5B1F010DFB00C12110 /* SPBezierPathFigureDraw.swift */; };
+		F4726F701F013C1F00C12110 /* SPStyleKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4726F6F1F013C1F00C12110 /* SPStyleKit.swift */; };
+		F4C56C251F039F2D007A03C8 /* SPRateAppEventsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C191F039F2D007A03C8 /* SPRateAppEventsDelegate.swift */; };
+		F4C56C261F039F2D007A03C8 /* SPRateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C1A1F039F2D007A03C8 /* SPRateApp.swift */; };
+		F4C56C271F039F2D007A03C8 /* SPRateAppBannerWithIndicatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C1F1F039F2D007A03C8 /* SPRateAppBannerWithIndicatorController.swift */; };
+		F4C56C281F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C211F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSource.swift */; };
+		F4C56C291F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C231F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */; };
+		F4C56C2B1F03AD45007A03C8 /* SPRateAppBannerWithIndicatorAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C2A1F03AD45007A03C8 /* SPRateAppBannerWithIndicatorAlertView.swift */; };
+		F4C56C2D1F03AE51007A03C8 /* SPRateAppBannerWithIndicatorTwiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C56C2C1F03AE51007A03C8 /* SPRateAppBannerWithIndicatorTwiceButton.swift */; };
+		F4ED02EC1EF6D9740060D024 /* SPHideWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED02EB1EF6D9740060D024 /* SPHideWindow.swift */; };
+		F4ED02FC1EF6DE7F0060D024 /* SPIndicationBannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ED02FB1EF6DE7F0060D024 /* SPIndicationBannerController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F40033391EF1A20600E40562 /* SPRateApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SPRateApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F400333C1EF1A20600E40562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F400333E1EF1A20600E40562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F40033431EF1A20600E40562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F40033481EF1A20600E40562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F40033501EF1A28700E40562 /* SPAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimation.swift; sourceTree = "<group>"; };
+		F40033511EF1A28700E40562 /* SPAnimationAlpha.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationAlpha.swift; sourceTree = "<group>"; };
+		F40033521EF1A28700E40562 /* SPAnimationSpring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationSpring.swift; sourceTree = "<group>"; };
+		F40033531EF1A28700E40562 /* SPAnimationUpward.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAnimationUpward.swift; sourceTree = "<group>"; };
+		F40033551EF1A28700E40562 /* SPAudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAudioPlayer.swift; sourceTree = "<group>"; };
+		F40033571EF1A28700E40562 /* NSLayoutConstraintExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtenshion.swift; sourceTree = "<group>"; };
+		F40033581EF1A28700E40562 /* SPConstraintsAssistent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPConstraintsAssistent.swift; sourceTree = "<group>"; };
+		F400335A1EF1A28700E40562 /* SPDelay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDelay.swift; sourceTree = "<group>"; };
+		F400335C1EF1A28700E40562 /* SPDevice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDevice.swift; sourceTree = "<group>"; };
+		F400335D1EF1A28700E40562 /* SPDeviceOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDeviceOrientation.swift; sourceTree = "<group>"; };
+		F400335E1EF1A28700E40562 /* SPUIDeviceExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIDeviceExtenshion.swift; sourceTree = "<group>"; };
+		F40033601EF1A28700E40562 /* SPArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPArrayExtension.swift; sourceTree = "<group>"; };
+		F40033611EF1A28700E40562 /* SPBezierPathExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathExtension.swift; sourceTree = "<group>"; };
+		F40033621EF1A28700E40562 /* SPCGRectExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCGRectExtension.swift; sourceTree = "<group>"; };
+		F40033631EF1A28700E40562 /* SPCGSizeExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCGSizeExtenshion.swift; sourceTree = "<group>"; };
+		F40033641EF1A28700E40562 /* SPStrideableExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStrideableExtension.swift; sourceTree = "<group>"; };
+		F40033651EF1A28700E40562 /* SPUIButtonExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIButtonExtenshion.swift; sourceTree = "<group>"; };
+		F40033661EF1A28700E40562 /* SPUIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIColorExtension.swift; sourceTree = "<group>"; };
+		F40033671EF1A28700E40562 /* SPUIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIImageExtension.swift; sourceTree = "<group>"; };
+		F40033681EF1A28700E40562 /* SPUIScreenExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIScreenExtension.swift; sourceTree = "<group>"; };
+		F40033691EF1A28700E40562 /* SPUIViewControllerExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIViewControllerExtenshion.swift; sourceTree = "<group>"; };
+		F400336B1EF1A28700E40562 /* SPUIFontExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIFontExtenshion.swift; sourceTree = "<group>"; };
+		F400336E1EF1A28700E40562 /* SPInternetConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPInternetConnection.swift; sourceTree = "<group>"; };
+		F40033721EF1A28700E40562 /* SPLaunchAnimationTwitterExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimationTwitterExtenshion.swift; sourceTree = "<group>"; };
+		F40033741EF1A28700E40562 /* SPLaunchAnimationSlideExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimationSlideExtenshion.swift; sourceTree = "<group>"; };
+		F40033751EF1A28700E40562 /* SPLaunchAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLaunchAnimation.swift; sourceTree = "<group>"; };
+		F40033771EF1A28700E40562 /* SPLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLayout.swift; sourceTree = "<group>"; };
+		F400337B1EF1A28700E40562 /* SPRequestPermissionDataColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDataColors.swift; sourceTree = "<group>"; };
+		F400337C1EF1A28700E40562 /* SPRequestPermissionDataFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDataFonts.swift; sourceTree = "<group>"; };
+		F400337D1EF1A28700E40562 /* SPRequestPermissionDataTexts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDataTexts.swift; sourceTree = "<group>"; };
+		F400337E1EF1A28700E40562 /* SPRequestPermissionDataViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDataViews.swift; sourceTree = "<group>"; };
+		F40033821EF1A28700E40562 /* SPRequestPermissionLocationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionLocationHandler.swift; sourceTree = "<group>"; };
+		F40033831EF1A28700E40562 /* SPPermissions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissions.swift; sourceTree = "<group>"; };
+		F40033841EF1A28700E40562 /* SPPermissionsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPermissionsManager.swift; sourceTree = "<group>"; };
+		F40033891EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveViewController.swift; sourceTree = "<group>"; };
+		F400338B1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveDataSource.swift; sourceTree = "<group>"; };
+		F400338D1EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractivePresenter.swift; sourceTree = "<group>"; };
+		F400338F1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveDataSourceInterface.swift; sourceTree = "<group>"; };
+		F40033901EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractivePresenterInterface.swift; sourceTree = "<group>"; };
+		F40033911EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveViewControllerInterface.swift; sourceTree = "<group>"; };
+		F40033931EF1A28700E40562 /* SPRequestPermissionDialogInteractiveView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionDialogInteractiveView.swift; sourceTree = "<group>"; };
+		F40033951EF1A28700E40562 /* SPRequestPermissionNativePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionNativePresenter.swift; sourceTree = "<group>"; };
+		F40033981EF1A28700E40562 /* SPRequestPermissionTwiceControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionTwiceControl.swift; sourceTree = "<group>"; };
+		F40033991EF1A28700E40562 /* SPRequestPermissionTwiceControlBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionTwiceControlBase.swift; sourceTree = "<group>"; };
+		F400339B1EF1A28700E40562 /* SPRequestPermissionEventsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermissionEventsDelegate.swift; sourceTree = "<group>"; };
+		F400339D1EF1A28700E40562 /* plist_flags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = plist_flags.swift; sourceTree = "<group>"; };
+		F400339E1EF1A28700E40562 /* SPRequestPermission.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRequestPermission.swift; sourceTree = "<group>"; };
+		F40033A01EF1A28700E40562 /* SPRandom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRandom.swift; sourceTree = "<group>"; };
+		F40033A21EF1A28700E40562 /* SPTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTypes.swift; sourceTree = "<group>"; };
+		F40033A51EF1A28700E40562 /* SPDialogSwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDialogSwipeController.swift; sourceTree = "<group>"; };
+		F40033A61EF1A28700E40562 /* SPExtenshionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPExtenshionViewController.swift; sourceTree = "<group>"; };
+		F40033A71EF1A28700E40562 /* SPGradientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientViewController.swift; sourceTree = "<group>"; };
+		F40033A81EF1A28700E40562 /* SPPageItemsScallingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScallingViewController.swift; sourceTree = "<group>"; };
+		F40033A91EF1A28700E40562 /* SPParalaxTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPParalaxTableViewController.swift; sourceTree = "<group>"; };
+		F40033AA1EF1A28700E40562 /* SPStatusBarManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStatusBarManagerViewController.swift; sourceTree = "<group>"; };
+		F40033AD1EF1A28700E40562 /* SPIconsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPIconsButton.swift; sourceTree = "<group>"; };
+		F40033AE1EF1A28700E40562 /* SPLinesCircleButtonsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPLinesCircleButtonsView.swift; sourceTree = "<group>"; };
+		F40033AF1EF1A28700E40562 /* SPRoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRoundButton.swift; sourceTree = "<group>"; };
+		F40033B21EF1A28700E40562 /* SPSegmentControllCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSegmentControllCell.swift; sourceTree = "<group>"; };
+		F40033B31EF1A28700E40562 /* SPSegmentControlProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSegmentControlProtocol.swift; sourceTree = "<group>"; };
+		F40033B41EF1A28700E40562 /* SPSegmentControlStyleProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSegmentControlStyleProtocol.swift; sourceTree = "<group>"; };
+		F40033B51EF1A28700E40562 /* SPSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSegmentedControl.swift; sourceTree = "<group>"; };
+		F40033B91EF1A28700E40562 /* SPCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionViewCell.swift; sourceTree = "<group>"; };
+		F40033BB1EF1A28700E40562 /* SPCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionView.swift; sourceTree = "<group>"; };
+		F40033BC1EF1A28700E40562 /* SPPageItemsScalingCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScalingCollectionView.swift; sourceTree = "<group>"; };
+		F40033BE1EF1A28700E40562 /* SPCollectionViewLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPCollectionViewLayout.swift; sourceTree = "<group>"; };
+		F40033BF1EF1A28700E40562 /* SPPageItemsScalingCollectionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPageItemsScalingCollectionLayout.swift; sourceTree = "<group>"; };
+		F40033C11EF1A28700E40562 /* SPRhombusPatternView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRhombusPatternView.swift; sourceTree = "<group>"; };
+		F40033C41EF1A28700E40562 /* SPParallaxTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPParallaxTableViewCell.swift; sourceTree = "<group>"; };
+		F40033C61EF1A28700E40562 /* SPAligmentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPAligmentView.swift; sourceTree = "<group>"; };
+		F40033C71EF1A28700E40562 /* SPBannerWithTitlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBannerWithTitlesView.swift; sourceTree = "<group>"; };
+		F40033C81EF1A28700E40562 /* SPBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBlurView.swift; sourceTree = "<group>"; };
+		F40033C91EF1A28700E40562 /* SPGradeWithBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradeWithBlurView.swift; sourceTree = "<group>"; };
+		F40033CA1EF1A28700E40562 /* SPGradientGradeWithBlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientGradeWithBlurView.swift; sourceTree = "<group>"; };
+		F40033CB1EF1A28700E40562 /* SPGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPGradientView.swift; sourceTree = "<group>"; };
+		F40033CC1EF1A28700E40562 /* SPPatternView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPPatternView.swift; sourceTree = "<group>"; };
+		F40033CD1EF1A28700E40562 /* SPShadowWithMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShadowWithMaskView.swift; sourceTree = "<group>"; };
+		F40033CE1EF1A28700E40562 /* SPTitleWithSubtitleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPTitleWithSubtitleView.swift; sourceTree = "<group>"; };
+		F40033CF1EF1A28700E40562 /* SPUILabelExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUILabelExtenshion.swift; sourceTree = "<group>"; };
+		F40033D01EF1A28700E40562 /* SPUIViewExtenshion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPUIViewExtenshion.swift; sourceTree = "<group>"; };
+		F40033D41EF1A28700E40562 /* SPBezierPathFigureIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigureIcons.swift; sourceTree = "<group>"; };
+		F40033D61EF1A28700E40562 /* SPBezierPathFigureLogos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigureLogos.swift; sourceTree = "<group>"; };
+		F40033D81EF1A28700E40562 /* SPBezierPathFigurePatterns.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigurePatterns.swift; sourceTree = "<group>"; };
+		F40033D91EF1A28700E40562 /* SPBezierPathFigure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigure.swift; sourceTree = "<group>"; };
+		F40033DB1EF1A28700E40562 /* SPSpotlight.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPSpotlight.swift; sourceTree = "<group>"; };
+		F40034311EF1A2A200E40562 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		F40034331EF1A35D00E40562 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F40034371EF1A3F500E40562 /* SPShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShadow.swift; sourceTree = "<group>"; };
+		F40034391EF1A47600E40562 /* SPShadowDeep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPShadowDeep.swift; sourceTree = "<group>"; };
+		F4726F5B1F010DFB00C12110 /* SPBezierPathFigureDraw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPBezierPathFigureDraw.swift; sourceTree = "<group>"; };
+		F4726F6F1F013C1F00C12110 /* SPStyleKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPStyleKit.swift; sourceTree = "<group>"; };
+		F4C56C191F039F2D007A03C8 /* SPRateAppEventsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppEventsDelegate.swift; sourceTree = "<group>"; };
+		F4C56C1A1F039F2D007A03C8 /* SPRateApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateApp.swift; sourceTree = "<group>"; };
+		F4C56C1F1F039F2D007A03C8 /* SPRateAppBannerWithIndicatorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppBannerWithIndicatorController.swift; sourceTree = "<group>"; };
+		F4C56C211F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppBannerWithIndicatorDataSource.swift; sourceTree = "<group>"; };
+		F4C56C231F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppBannerWithIndicatorDataSourceInterface.swift; sourceTree = "<group>"; };
+		F4C56C2A1F03AD45007A03C8 /* SPRateAppBannerWithIndicatorAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppBannerWithIndicatorAlertView.swift; sourceTree = "<group>"; };
+		F4C56C2C1F03AE51007A03C8 /* SPRateAppBannerWithIndicatorTwiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPRateAppBannerWithIndicatorTwiceButton.swift; sourceTree = "<group>"; };
+		F4ED02EB1EF6D9740060D024 /* SPHideWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPHideWindow.swift; sourceTree = "<group>"; };
+		F4ED02FB1EF6DE7F0060D024 /* SPIndicationBannerController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPIndicationBannerController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F40033361EF1A20600E40562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F40033301EF1A20600E40562 = {
+			isa = PBXGroup;
+			children = (
+				F400333B1EF1A20600E40562 /* SPRateApp */,
+				F400333A1EF1A20600E40562 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F400333A1EF1A20600E40562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F40033391EF1A20600E40562 /* SPRateApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F400333B1EF1A20600E40562 /* SPRateApp */ = {
+			isa = PBXGroup;
+			children = (
+				F400334E1EF1A28700E40562 /* sparrow */,
+				F400333C1EF1A20600E40562 /* AppDelegate.swift */,
+				F400333E1EF1A20600E40562 /* ViewController.swift */,
+				F40033431EF1A20600E40562 /* Assets.xcassets */,
+				F40034311EF1A2A200E40562 /* Main.storyboard */,
+				F40034331EF1A35D00E40562 /* LaunchScreen.storyboard */,
+				F40033481EF1A20600E40562 /* Info.plist */,
+			);
+			path = SPRateApp;
+			sourceTree = "<group>";
+		};
+		F400334E1EF1A28700E40562 /* sparrow */ = {
+			isa = PBXGroup;
+			children = (
+				F4726F6E1F013C1100C12110 /* style-kit */,
+				F400334F1EF1A28700E40562 /* animation */,
+				F40033541EF1A28700E40562 /* audio */,
+				F40033561EF1A28700E40562 /* constraints */,
+				F40033591EF1A28700E40562 /* delay */,
+				F400335B1EF1A28700E40562 /* device */,
+				F400335F1EF1A28700E40562 /* extension */,
+				F400336A1EF1A28700E40562 /* fonts */,
+				F400336C1EF1A28700E40562 /* image */,
+				F400336D1EF1A28700E40562 /* internetConnection */,
+				F400336F1EF1A28700E40562 /* launch */,
+				F40033761EF1A28700E40562 /* layout */,
+				F40033781EF1A28700E40562 /* modules */,
+				F400339F1EF1A28700E40562 /* random */,
+				F40033A11EF1A28700E40562 /* types */,
+				F40033A31EF1A28700E40562 /* ui */,
+				F40034351EF1A3D300E40562 /* ui-kit */,
+				F40033D11EF1A28700E40562 /* ui-elements */,
+				F40033DA1EF1A28700E40562 /* сore-spotlight */,
+			);
+			path = sparrow;
+			sourceTree = "<group>";
+		};
+		F400334F1EF1A28700E40562 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				F40033501EF1A28700E40562 /* SPAnimation.swift */,
+				F40033511EF1A28700E40562 /* SPAnimationAlpha.swift */,
+				F40033521EF1A28700E40562 /* SPAnimationSpring.swift */,
+				F40033531EF1A28700E40562 /* SPAnimationUpward.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		F40033541EF1A28700E40562 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				F40033551EF1A28700E40562 /* SPAudioPlayer.swift */,
+			);
+			path = audio;
+			sourceTree = "<group>";
+		};
+		F40033561EF1A28700E40562 /* constraints */ = {
+			isa = PBXGroup;
+			children = (
+				F40033571EF1A28700E40562 /* NSLayoutConstraintExtenshion.swift */,
+				F40033581EF1A28700E40562 /* SPConstraintsAssistent.swift */,
+			);
+			path = constraints;
+			sourceTree = "<group>";
+		};
+		F40033591EF1A28700E40562 /* delay */ = {
+			isa = PBXGroup;
+			children = (
+				F400335A1EF1A28700E40562 /* SPDelay.swift */,
+			);
+			path = delay;
+			sourceTree = "<group>";
+		};
+		F400335B1EF1A28700E40562 /* device */ = {
+			isa = PBXGroup;
+			children = (
+				F400335C1EF1A28700E40562 /* SPDevice.swift */,
+				F400335D1EF1A28700E40562 /* SPDeviceOrientation.swift */,
+				F400335E1EF1A28700E40562 /* SPUIDeviceExtenshion.swift */,
+			);
+			path = device;
+			sourceTree = "<group>";
+		};
+		F400335F1EF1A28700E40562 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				F40033601EF1A28700E40562 /* SPArrayExtension.swift */,
+				F40033611EF1A28700E40562 /* SPBezierPathExtension.swift */,
+				F40033621EF1A28700E40562 /* SPCGRectExtension.swift */,
+				F40033631EF1A28700E40562 /* SPCGSizeExtenshion.swift */,
+				F40033641EF1A28700E40562 /* SPStrideableExtension.swift */,
+				F40033651EF1A28700E40562 /* SPUIButtonExtenshion.swift */,
+				F40033661EF1A28700E40562 /* SPUIColorExtension.swift */,
+				F40033671EF1A28700E40562 /* SPUIImageExtension.swift */,
+				F40033681EF1A28700E40562 /* SPUIScreenExtension.swift */,
+				F40033691EF1A28700E40562 /* SPUIViewControllerExtenshion.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		F400336A1EF1A28700E40562 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F400336B1EF1A28700E40562 /* SPUIFontExtenshion.swift */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		F400336C1EF1A28700E40562 /* image */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		F400336D1EF1A28700E40562 /* internetConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F400336E1EF1A28700E40562 /* SPInternetConnection.swift */,
+			);
+			path = internetConnection;
+			sourceTree = "<group>";
+		};
+		F400336F1EF1A28700E40562 /* launch */ = {
+			isa = PBXGroup;
+			children = (
+				F40033701EF1A28700E40562 /* animation */,
+			);
+			path = launch;
+			sourceTree = "<group>";
+		};
+		F40033701EF1A28700E40562 /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				F40033711EF1A28700E40562 /* asTwitter */,
+				F40033731EF1A28700E40562 /* slide */,
+				F40033751EF1A28700E40562 /* SPLaunchAnimation.swift */,
+			);
+			path = animation;
+			sourceTree = "<group>";
+		};
+		F40033711EF1A28700E40562 /* asTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				F40033721EF1A28700E40562 /* SPLaunchAnimationTwitterExtenshion.swift */,
+			);
+			path = asTwitter;
+			sourceTree = "<group>";
+		};
+		F40033731EF1A28700E40562 /* slide */ = {
+			isa = PBXGroup;
+			children = (
+				F40033741EF1A28700E40562 /* SPLaunchAnimationSlideExtenshion.swift */,
+			);
+			path = slide;
+			sourceTree = "<group>";
+		};
+		F40033761EF1A28700E40562 /* layout */ = {
+			isa = PBXGroup;
+			children = (
+				F40033771EF1A28700E40562 /* SPLayout.swift */,
+			);
+			path = layout;
+			sourceTree = "<group>";
+		};
+		F40033781EF1A28700E40562 /* modules */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C171F039F2D007A03C8 /* rate-app */,
+				F40033791EF1A28700E40562 /* request-permissions */,
+			);
+			path = modules;
+			sourceTree = "<group>";
+		};
+		F40033791EF1A28700E40562 /* request-permissions */ = {
+			isa = PBXGroup;
+			children = (
+				F400337A1EF1A28700E40562 /* data */,
+				F400337F1EF1A28700E40562 /* managers */,
+				F400339A1EF1A28700E40562 /* protocols */,
+				F400339C1EF1A28700E40562 /* readme */,
+				F400339E1EF1A28700E40562 /* SPRequestPermission.swift */,
+			);
+			path = "request-permissions";
+			sourceTree = "<group>";
+		};
+		F400337A1EF1A28700E40562 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				F400337B1EF1A28700E40562 /* SPRequestPermissionDataColors.swift */,
+				F400337C1EF1A28700E40562 /* SPRequestPermissionDataFonts.swift */,
+				F400337D1EF1A28700E40562 /* SPRequestPermissionDataTexts.swift */,
+				F400337E1EF1A28700E40562 /* SPRequestPermissionDataViews.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		F400337F1EF1A28700E40562 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				F40033801EF1A28700E40562 /* permissions */,
+				F40033851EF1A28700E40562 /* presenters */,
+			);
+			path = managers;
+			sourceTree = "<group>";
+		};
+		F40033801EF1A28700E40562 /* permissions */ = {
+			isa = PBXGroup;
+			children = (
+				F40033811EF1A28700E40562 /* handlers */,
+				F40033831EF1A28700E40562 /* SPPermissions.swift */,
+				F40033841EF1A28700E40562 /* SPPermissionsManager.swift */,
+			);
+			path = permissions;
+			sourceTree = "<group>";
+		};
+		F40033811EF1A28700E40562 /* handlers */ = {
+			isa = PBXGroup;
+			children = (
+				F40033821EF1A28700E40562 /* SPRequestPermissionLocationHandler.swift */,
+			);
+			path = handlers;
+			sourceTree = "<group>";
+		};
+		F40033851EF1A28700E40562 /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				F40033861EF1A28700E40562 /* dialog */,
+				F40033941EF1A28700E40562 /* native */,
+				F40033961EF1A28700E40562 /* universal */,
+			);
+			path = presenters;
+			sourceTree = "<group>";
+		};
+		F40033861EF1A28700E40562 /* dialog */ = {
+			isa = PBXGroup;
+			children = (
+				F40033871EF1A28700E40562 /* interactive */,
+			);
+			path = dialog;
+			sourceTree = "<group>";
+		};
+		F40033871EF1A28700E40562 /* interactive */ = {
+			isa = PBXGroup;
+			children = (
+				F40033881EF1A28700E40562 /* controller */,
+				F400338A1EF1A28700E40562 /* data-source */,
+				F400338C1EF1A28700E40562 /* presenter */,
+				F400338E1EF1A28700E40562 /* protocols */,
+				F40033921EF1A28700E40562 /* views */,
+			);
+			path = interactive;
+			sourceTree = "<group>";
+		};
+		F40033881EF1A28700E40562 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F40033891EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F400338A1EF1A28700E40562 /* data-source */ = {
+			isa = PBXGroup;
+			children = (
+				F400338B1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSource.swift */,
+			);
+			path = "data-source";
+			sourceTree = "<group>";
+		};
+		F400338C1EF1A28700E40562 /* presenter */ = {
+			isa = PBXGroup;
+			children = (
+				F400338D1EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenter.swift */,
+			);
+			path = presenter;
+			sourceTree = "<group>";
+		};
+		F400338E1EF1A28700E40562 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F400338F1EF1A28700E40562 /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift */,
+				F40033901EF1A28700E40562 /* SPRequestPermissionDialogInteractivePresenterInterface.swift */,
+				F40033911EF1A28700E40562 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F40033921EF1A28700E40562 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F40033931EF1A28700E40562 /* SPRequestPermissionDialogInteractiveView.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F40033941EF1A28700E40562 /* native */ = {
+			isa = PBXGroup;
+			children = (
+				F40033951EF1A28700E40562 /* SPRequestPermissionNativePresenter.swift */,
+			);
+			path = native;
+			sourceTree = "<group>";
+		};
+		F40033961EF1A28700E40562 /* universal */ = {
+			isa = PBXGroup;
+			children = (
+				F40033971EF1A28700E40562 /* controls */,
+			);
+			path = universal;
+			sourceTree = "<group>";
+		};
+		F40033971EF1A28700E40562 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				F40033981EF1A28700E40562 /* SPRequestPermissionTwiceControl.swift */,
+				F40033991EF1A28700E40562 /* SPRequestPermissionTwiceControlBase.swift */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		F400339A1EF1A28700E40562 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F400339B1EF1A28700E40562 /* SPRequestPermissionEventsDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F400339C1EF1A28700E40562 /* readme */ = {
+			isa = PBXGroup;
+			children = (
+				F400339D1EF1A28700E40562 /* plist_flags.swift */,
+			);
+			path = readme;
+			sourceTree = "<group>";
+		};
+		F400339F1EF1A28700E40562 /* random */ = {
+			isa = PBXGroup;
+			children = (
+				F40033A01EF1A28700E40562 /* SPRandom.swift */,
+			);
+			path = random;
+			sourceTree = "<group>";
+		};
+		F40033A11EF1A28700E40562 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				F40033A21EF1A28700E40562 /* SPTypes.swift */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		F40033A31EF1A28700E40562 /* ui */ = {
+			isa = PBXGroup;
+			children = (
+				F40033A41EF1A28700E40562 /* controllers */,
+				F40033AB1EF1A28700E40562 /* controls */,
+				F40033B61EF1A28700E40562 /* views */,
+			);
+			path = ui;
+			sourceTree = "<group>";
+		};
+		F40033A41EF1A28700E40562 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED02FB1EF6DE7F0060D024 /* SPIndicationBannerController.swift */,
+				F40033A51EF1A28700E40562 /* SPDialogSwipeController.swift */,
+				F40033A61EF1A28700E40562 /* SPExtenshionViewController.swift */,
+				F40033A71EF1A28700E40562 /* SPGradientViewController.swift */,
+				F40033A81EF1A28700E40562 /* SPPageItemsScallingViewController.swift */,
+				F40033A91EF1A28700E40562 /* SPParalaxTableViewController.swift */,
+				F40033AA1EF1A28700E40562 /* SPStatusBarManagerViewController.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		F40033AB1EF1A28700E40562 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+				F40033AC1EF1A28700E40562 /* buttons */,
+				F40033B01EF1A28700E40562 /* controls */,
+				F40033B11EF1A28700E40562 /* segmentedControl */,
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		F40033AC1EF1A28700E40562 /* buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F40033AD1EF1A28700E40562 /* SPIconsButton.swift */,
+				F40033AE1EF1A28700E40562 /* SPLinesCircleButtonsView.swift */,
+				F40033AF1EF1A28700E40562 /* SPRoundButton.swift */,
+			);
+			path = buttons;
+			sourceTree = "<group>";
+		};
+		F40033B01EF1A28700E40562 /* controls */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controls;
+			sourceTree = "<group>";
+		};
+		F40033B11EF1A28700E40562 /* segmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				F40033B21EF1A28700E40562 /* SPSegmentControllCell.swift */,
+				F40033B31EF1A28700E40562 /* SPSegmentControlProtocol.swift */,
+				F40033B41EF1A28700E40562 /* SPSegmentControlStyleProtocol.swift */,
+				F40033B51EF1A28700E40562 /* SPSegmentedControl.swift */,
+			);
+			path = segmentedControl;
+			sourceTree = "<group>";
+		};
+		F40033B61EF1A28700E40562 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F40033B71EF1A28700E40562 /* collectionViews */,
+				F40033C01EF1A28700E40562 /* patternViews */,
+				F40033C21EF1A28700E40562 /* tableViews */,
+				F40033C51EF1A28700E40562 /* views */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F40033B71EF1A28700E40562 /* collectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				F40033B81EF1A28700E40562 /* cells */,
+				F40033BA1EF1A28700E40562 /* collectionViews */,
+				F40033BD1EF1A28700E40562 /* layouts */,
+			);
+			path = collectionViews;
+			sourceTree = "<group>";
+		};
+		F40033B81EF1A28700E40562 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				F40033B91EF1A28700E40562 /* SPCollectionViewCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
+		F40033BA1EF1A28700E40562 /* collectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				F40033BB1EF1A28700E40562 /* SPCollectionView.swift */,
+				F40033BC1EF1A28700E40562 /* SPPageItemsScalingCollectionView.swift */,
+			);
+			path = collectionViews;
+			sourceTree = "<group>";
+		};
+		F40033BD1EF1A28700E40562 /* layouts */ = {
+			isa = PBXGroup;
+			children = (
+				F40033BE1EF1A28700E40562 /* SPCollectionViewLayout.swift */,
+				F40033BF1EF1A28700E40562 /* SPPageItemsScalingCollectionLayout.swift */,
+			);
+			path = layouts;
+			sourceTree = "<group>";
+		};
+		F40033C01EF1A28700E40562 /* patternViews */ = {
+			isa = PBXGroup;
+			children = (
+				F40033C11EF1A28700E40562 /* SPRhombusPatternView.swift */,
+			);
+			path = patternViews;
+			sourceTree = "<group>";
+		};
+		F40033C21EF1A28700E40562 /* tableViews */ = {
+			isa = PBXGroup;
+			children = (
+				F40033C31EF1A28700E40562 /* cell */,
+			);
+			path = tableViews;
+			sourceTree = "<group>";
+		};
+		F40033C31EF1A28700E40562 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				F40033C41EF1A28700E40562 /* SPParallaxTableViewCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		F40033C51EF1A28700E40562 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F40033C61EF1A28700E40562 /* SPAligmentView.swift */,
+				F40033C71EF1A28700E40562 /* SPBannerWithTitlesView.swift */,
+				F40033C81EF1A28700E40562 /* SPBlurView.swift */,
+				F40033C91EF1A28700E40562 /* SPGradeWithBlurView.swift */,
+				F40033CA1EF1A28700E40562 /* SPGradientGradeWithBlurView.swift */,
+				F40033CB1EF1A28700E40562 /* SPGradientView.swift */,
+				F40033CC1EF1A28700E40562 /* SPPatternView.swift */,
+				F40033CD1EF1A28700E40562 /* SPShadowWithMaskView.swift */,
+				F40033CE1EF1A28700E40562 /* SPTitleWithSubtitleView.swift */,
+				F40033CF1EF1A28700E40562 /* SPUILabelExtenshion.swift */,
+				F40033D01EF1A28700E40562 /* SPUIViewExtenshion.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F40033D11EF1A28700E40562 /* ui-elements */ = {
+			isa = PBXGroup;
+			children = (
+				F40033D21EF1A28700E40562 /* bezier-paths */,
+			);
+			path = "ui-elements";
+			sourceTree = "<group>";
+		};
+		F40033D21EF1A28700E40562 /* bezier-paths */ = {
+			isa = PBXGroup;
+			children = (
+				F40033D31EF1A28700E40562 /* icons */,
+				F40033D51EF1A28700E40562 /* logos */,
+				F40033D71EF1A28700E40562 /* pattern */,
+				F40033D91EF1A28700E40562 /* SPBezierPathFigure.swift */,
+			);
+			path = "bezier-paths";
+			sourceTree = "<group>";
+		};
+		F40033D31EF1A28700E40562 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				F4726F5B1F010DFB00C12110 /* SPBezierPathFigureDraw.swift */,
+				F40033D41EF1A28700E40562 /* SPBezierPathFigureIcons.swift */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		F40033D51EF1A28700E40562 /* logos */ = {
+			isa = PBXGroup;
+			children = (
+				F40033D61EF1A28700E40562 /* SPBezierPathFigureLogos.swift */,
+			);
+			path = logos;
+			sourceTree = "<group>";
+		};
+		F40033D71EF1A28700E40562 /* pattern */ = {
+			isa = PBXGroup;
+			children = (
+				F40033D81EF1A28700E40562 /* SPBezierPathFigurePatterns.swift */,
+			);
+			path = pattern;
+			sourceTree = "<group>";
+		};
+		F40033DA1EF1A28700E40562 /* сore-spotlight */ = {
+			isa = PBXGroup;
+			children = (
+				F40033DB1EF1A28700E40562 /* SPSpotlight.swift */,
+			);
+			path = "сore-spotlight";
+			sourceTree = "<group>";
+		};
+		F40034351EF1A3D300E40562 /* ui-kit */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED02EA1EF6D9740060D024 /* hide-window */,
+				F40034361EF1A3D300E40562 /* shadow */,
+			);
+			path = "ui-kit";
+			sourceTree = "<group>";
+		};
+		F40034361EF1A3D300E40562 /* shadow */ = {
+			isa = PBXGroup;
+			children = (
+				F40034371EF1A3F500E40562 /* SPShadow.swift */,
+				F40034391EF1A47600E40562 /* SPShadowDeep.swift */,
+			);
+			path = shadow;
+			sourceTree = "<group>";
+		};
+		F4726F6E1F013C1100C12110 /* style-kit */ = {
+			isa = PBXGroup;
+			children = (
+				F4726F6F1F013C1F00C12110 /* SPStyleKit.swift */,
+			);
+			path = "style-kit";
+			sourceTree = "<group>";
+		};
+		F4C56C171F039F2D007A03C8 /* rate-app */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C1B1F039F2D007A03C8 /* types */,
+				F4C56C181F039F2D007A03C8 /* protocols */,
+				F4C56C1A1F039F2D007A03C8 /* SPRateApp.swift */,
+			);
+			path = "rate-app";
+			sourceTree = "<group>";
+		};
+		F4C56C181F039F2D007A03C8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C191F039F2D007A03C8 /* SPRateAppEventsDelegate.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F4C56C1B1F039F2D007A03C8 /* types */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C1C1F039F2D007A03C8 /* dialog */,
+			);
+			path = types;
+			sourceTree = "<group>";
+		};
+		F4C56C1C1F039F2D007A03C8 /* dialog */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C1D1F039F2D007A03C8 /* banner-with-indicator */,
+			);
+			path = dialog;
+			sourceTree = "<group>";
+		};
+		F4C56C1D1F039F2D007A03C8 /* banner-with-indicator */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C1E1F039F2D007A03C8 /* controller */,
+				F4C56C201F039F2D007A03C8 /* data-source */,
+				F4C56C221F039F2D007A03C8 /* protocols */,
+				F4C56C241F039F2D007A03C8 /* views */,
+			);
+			path = "banner-with-indicator";
+			sourceTree = "<group>";
+		};
+		F4C56C1E1F039F2D007A03C8 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C1F1F039F2D007A03C8 /* SPRateAppBannerWithIndicatorController.swift */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		F4C56C201F039F2D007A03C8 /* data-source */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C211F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSource.swift */,
+			);
+			path = "data-source";
+			sourceTree = "<group>";
+		};
+		F4C56C221F039F2D007A03C8 /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C231F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift */,
+			);
+			path = protocols;
+			sourceTree = "<group>";
+		};
+		F4C56C241F039F2D007A03C8 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				F4C56C2A1F03AD45007A03C8 /* SPRateAppBannerWithIndicatorAlertView.swift */,
+				F4C56C2C1F03AE51007A03C8 /* SPRateAppBannerWithIndicatorTwiceButton.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		F4ED02EA1EF6D9740060D024 /* hide-window */ = {
+			isa = PBXGroup;
+			children = (
+				F4ED02EB1EF6D9740060D024 /* SPHideWindow.swift */,
+			);
+			path = "hide-window";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F40033381EF1A20600E40562 /* SPRateApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F400334B1EF1A20600E40562 /* Build configuration list for PBXNativeTarget "SPRateApp" */;
+			buildPhases = (
+				F40033351EF1A20600E40562 /* Sources */,
+				F40033361EF1A20600E40562 /* Frameworks */,
+				F40033371EF1A20600E40562 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SPRateApp;
+			productName = SPRateApp;
+			productReference = F40033391EF1A20600E40562 /* SPRateApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F40033311EF1A20600E40562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ivan Vorobei";
+				TargetAttributes = {
+					F40033381EF1A20600E40562 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = MNM2TM9G7C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F40033341EF1A20600E40562 /* Build configuration list for PBXProject "SPRateApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F40033301EF1A20600E40562;
+			productRefGroup = F400333A1EF1A20600E40562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F40033381EF1A20600E40562 /* SPRateApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F40033371EF1A20600E40562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F40034341EF1A35D00E40562 /* LaunchScreen.storyboard in Resources */,
+				F40034321EF1A2A200E40562 /* Main.storyboard in Resources */,
+				F40033441EF1A20600E40562 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F40033351EF1A20600E40562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F400342B1EF1A28800E40562 /* SPUIViewExtenshion.swift in Sources */,
+				F40034261EF1A28800E40562 /* SPGradientView.swift in Sources */,
+				F40034171EF1A28800E40562 /* SPSegmentControlProtocol.swift in Sources */,
+				F40033E31EF1A28700E40562 /* SPDelay.swift in Sources */,
+				F40033F31EF1A28800E40562 /* SPLaunchAnimationTwitterExtenshion.swift in Sources */,
+				F400341F1EF1A28800E40562 /* SPRhombusPatternView.swift in Sources */,
+				F4ED02EC1EF6D9740060D024 /* SPHideWindow.swift in Sources */,
+				F40034251EF1A28800E40562 /* SPGradientGradeWithBlurView.swift in Sources */,
+				F40033FA1EF1A28800E40562 /* SPRequestPermissionDataViews.swift in Sources */,
+				F40034051EF1A28800E40562 /* SPRequestPermissionNativePresenter.swift in Sources */,
+				F4C56C271F039F2D007A03C8 /* SPRateAppBannerWithIndicatorController.swift in Sources */,
+				F40034271EF1A28800E40562 /* SPPatternView.swift in Sources */,
+				F40034281EF1A28800E40562 /* SPShadowWithMaskView.swift in Sources */,
+				F40033FB1EF1A28800E40562 /* SPRequestPermissionLocationHandler.swift in Sources */,
+				F400333F1EF1A20600E40562 /* ViewController.swift in Sources */,
+				F40034241EF1A28800E40562 /* SPGradeWithBlurView.swift in Sources */,
+				F40034231EF1A28800E40562 /* SPBlurView.swift in Sources */,
+				F40033FC1EF1A28800E40562 /* SPPermissions.swift in Sources */,
+				F400341E1EF1A28800E40562 /* SPPageItemsScalingCollectionLayout.swift in Sources */,
+				F400340B1EF1A28800E40562 /* SPRandom.swift in Sources */,
+				F400343A1EF1A47600E40562 /* SPShadowDeep.swift in Sources */,
+				F40033E61EF1A28700E40562 /* SPUIDeviceExtenshion.swift in Sources */,
+				F40033FD1EF1A28800E40562 /* SPPermissionsManager.swift in Sources */,
+				F40033EE1EF1A28800E40562 /* SPUIImageExtension.swift in Sources */,
+				F40034221EF1A28800E40562 /* SPBannerWithTitlesView.swift in Sources */,
+				F40033FE1EF1A28800E40562 /* SPRequestPermissionDialogInteractiveViewController.swift in Sources */,
+				F40034071EF1A28800E40562 /* SPRequestPermissionTwiceControlBase.swift in Sources */,
+				F4C56C281F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSource.swift in Sources */,
+				F40034041EF1A28800E40562 /* SPRequestPermissionDialogInteractiveView.swift in Sources */,
+				F40033E01EF1A28700E40562 /* SPAudioPlayer.swift in Sources */,
+				F400333D1EF1A20600E40562 /* AppDelegate.swift in Sources */,
+				F40033F01EF1A28800E40562 /* SPUIViewControllerExtenshion.swift in Sources */,
+				F40033EA1EF1A28800E40562 /* SPCGSizeExtenshion.swift in Sources */,
+				F400341A1EF1A28800E40562 /* SPCollectionViewCell.swift in Sources */,
+				F4C56C2B1F03AD45007A03C8 /* SPRateAppBannerWithIndicatorAlertView.swift in Sources */,
+				F40034201EF1A28800E40562 /* SPParallaxTableViewCell.swift in Sources */,
+				F40034191EF1A28800E40562 /* SPSegmentedControl.swift in Sources */,
+				F40034101EF1A28800E40562 /* SPPageItemsScallingViewController.swift in Sources */,
+				F40033E21EF1A28700E40562 /* SPConstraintsAssistent.swift in Sources */,
+				F40033DF1EF1A28700E40562 /* SPAnimationUpward.swift in Sources */,
+				F400340A1EF1A28800E40562 /* SPRequestPermission.swift in Sources */,
+				F40033F81EF1A28800E40562 /* SPRequestPermissionDataFonts.swift in Sources */,
+				F40033F41EF1A28800E40562 /* SPLaunchAnimationSlideExtenshion.swift in Sources */,
+				F40033ED1EF1A28800E40562 /* SPUIColorExtension.swift in Sources */,
+				F40034121EF1A28800E40562 /* SPStatusBarManagerViewController.swift in Sources */,
+				F40033DD1EF1A28700E40562 /* SPAnimationAlpha.swift in Sources */,
+				F40033DE1EF1A28700E40562 /* SPAnimationSpring.swift in Sources */,
+				F400340C1EF1A28800E40562 /* SPTypes.swift in Sources */,
+				F40033E41EF1A28700E40562 /* SPDevice.swift in Sources */,
+				F40033F51EF1A28800E40562 /* SPLaunchAnimation.swift in Sources */,
+				F40033EC1EF1A28800E40562 /* SPUIButtonExtenshion.swift in Sources */,
+				F400341D1EF1A28800E40562 /* SPCollectionViewLayout.swift in Sources */,
+				F40033E91EF1A28700E40562 /* SPCGRectExtension.swift in Sources */,
+				F40034141EF1A28800E40562 /* SPLinesCircleButtonsView.swift in Sources */,
+				F4C56C291F039F2D007A03C8 /* SPRateAppBannerWithIndicatorDataSourceInterface.swift in Sources */,
+				F40034291EF1A28800E40562 /* SPTitleWithSubtitleView.swift in Sources */,
+				F400342F1EF1A28800E40562 /* SPBezierPathFigure.swift in Sources */,
+				F400341B1EF1A28800E40562 /* SPCollectionView.swift in Sources */,
+				F40034111EF1A28800E40562 /* SPParalaxTableViewController.swift in Sources */,
+				F4726F5C1F010DFB00C12110 /* SPBezierPathFigureDraw.swift in Sources */,
+				F4726F701F013C1F00C12110 /* SPStyleKit.swift in Sources */,
+				F40033F91EF1A28800E40562 /* SPRequestPermissionDataTexts.swift in Sources */,
+				F40033F61EF1A28800E40562 /* SPLayout.swift in Sources */,
+				F40033F11EF1A28800E40562 /* SPUIFontExtenshion.swift in Sources */,
+				F40034211EF1A28800E40562 /* SPAligmentView.swift in Sources */,
+				F40034161EF1A28800E40562 /* SPSegmentControllCell.swift in Sources */,
+				F4C56C261F039F2D007A03C8 /* SPRateApp.swift in Sources */,
+				F40034381EF1A3F500E40562 /* SPShadow.swift in Sources */,
+				F40034301EF1A28800E40562 /* SPSpotlight.swift in Sources */,
+				F40034131EF1A28800E40562 /* SPIconsButton.swift in Sources */,
+				F4ED02FC1EF6DE7F0060D024 /* SPIndicationBannerController.swift in Sources */,
+				F40033E81EF1A28700E40562 /* SPBezierPathExtension.swift in Sources */,
+				F40034181EF1A28800E40562 /* SPSegmentControlStyleProtocol.swift in Sources */,
+				F40034031EF1A28800E40562 /* SPRequestPermissionDialogInteractiveViewControllerInterface.swift in Sources */,
+				F40033E71EF1A28700E40562 /* SPArrayExtension.swift in Sources */,
+				F400342C1EF1A28800E40562 /* SPBezierPathFigureIcons.swift in Sources */,
+				F40034061EF1A28800E40562 /* SPRequestPermissionTwiceControl.swift in Sources */,
+				F40033F71EF1A28800E40562 /* SPRequestPermissionDataColors.swift in Sources */,
+				F40034091EF1A28800E40562 /* plist_flags.swift in Sources */,
+				F40034011EF1A28800E40562 /* SPRequestPermissionDialogInteractiveDataSourceInterface.swift in Sources */,
+				F40034081EF1A28800E40562 /* SPRequestPermissionEventsDelegate.swift in Sources */,
+				F40034021EF1A28800E40562 /* SPRequestPermissionDialogInteractivePresenterInterface.swift in Sources */,
+				F40033FF1EF1A28800E40562 /* SPRequestPermissionDialogInteractiveDataSource.swift in Sources */,
+				F40033E11EF1A28700E40562 /* NSLayoutConstraintExtenshion.swift in Sources */,
+				F400340F1EF1A28800E40562 /* SPGradientViewController.swift in Sources */,
+				F4C56C251F039F2D007A03C8 /* SPRateAppEventsDelegate.swift in Sources */,
+				F40033EF1EF1A28800E40562 /* SPUIScreenExtension.swift in Sources */,
+				F4C56C2D1F03AE51007A03C8 /* SPRateAppBannerWithIndicatorTwiceButton.swift in Sources */,
+				F40034001EF1A28800E40562 /* SPRequestPermissionDialogInteractivePresenter.swift in Sources */,
+				F400340D1EF1A28800E40562 /* SPDialogSwipeController.swift in Sources */,
+				F40033EB1EF1A28800E40562 /* SPStrideableExtension.swift in Sources */,
+				F40033F21EF1A28800E40562 /* SPInternetConnection.swift in Sources */,
+				F400342E1EF1A28800E40562 /* SPBezierPathFigurePatterns.swift in Sources */,
+				F40033DC1EF1A28700E40562 /* SPAnimation.swift in Sources */,
+				F40034151EF1A28800E40562 /* SPRoundButton.swift in Sources */,
+				F400342D1EF1A28800E40562 /* SPBezierPathFigureLogos.swift in Sources */,
+				F400342A1EF1A28800E40562 /* SPUILabelExtenshion.swift in Sources */,
+				F40033E51EF1A28700E40562 /* SPDeviceOrientation.swift in Sources */,
+				F400341C1EF1A28800E40562 /* SPPageItemsScalingCollectionView.swift in Sources */,
+				F400340E1EF1A28800E40562 /* SPExtenshionViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F40033491EF1A20600E40562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F400334A1EF1A20600E40562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F400334C1EF1A20600E40562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNM2TM9G7C;
+				INFOPLIST_FILE = SPRateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.ivanvorobei.SPRateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F400334D1EF1A20600E40562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MNM2TM9G7C;
+				INFOPLIST_FILE = SPRateApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = by.ivanvorobei.SPRateApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F40033341EF1A20600E40562 /* Build configuration list for PBXProject "SPRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F40033491EF1A20600E40562 /* Debug */,
+				F400334A1EF1A20600E40562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F400334B1EF1A20600E40562 /* Build configuration list for PBXNativeTarget "SPRateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F400334C1EF1A20600E40562 /* Debug */,
+				F400334D1EF1A20600E40562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F40033311EF1A20600E40562 /* Project object */;
+}
