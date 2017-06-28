@@ -41,7 +41,7 @@ SPRateApp.setTimeInterval(days: 3)
 ## Types of presentation
 Did you notice that when initialized the `SPRateApp` - we chose the module (`SPRateApp.dialog.bannerWithIndicator...`). You can choose an appropriate visual component. They all adapted to the iPad and iPhone for all screens and for all orientations (currently available `dialog/bannerWithIndicator`, but soon I will add number of presentations)
 
-<img src="https://cdn.rawgit.com/IvanVorobei/RequestPermission/e85814ac/resources/request-permission_presenters.png"/>
+<img src="https://cdn.rawgit.com/IvanVorobei/RateApp/335d22fc/resources/rate-app_presenters.png"/>
 
 ## Delegates
 To track events associated with `SPRateApp`, implement the protocol `SPRateAppEventsDelegate` and pass the delegate
